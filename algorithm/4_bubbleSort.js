@@ -1,6 +1,6 @@
 const array = [1,2,3,5,10,11,-1,5,12,6,9,88,11,15];
 
-function selectionSort(array)
+function bubbleSort(array)
 {
     for(let i = 0; array.length >= i; i++)
     {
@@ -17,5 +17,5 @@ function selectionSort(array)
     return array;
 }
 
-let result = selectionSort(array);
+let result = bubbleSort(array);
 console.log('Result is', result);
